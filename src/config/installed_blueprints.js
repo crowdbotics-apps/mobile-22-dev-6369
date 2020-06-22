@@ -1,5 +1,6 @@
 export const installed_blueprints = [
   //@BlueprintInsertion
+{ name: 'Messaging6320', human_name: 'Messaging', access_route: 'Messaging6320', icon: 'comments'},
 { name: 'EmailAuth6319', human_name: 'Email Auth', access_route: 'EmailAuth6319', icon: 'envelope-o'},
 { name: 'Messenger', human_name: 'Messenger', access_route: 'Messenger', icon: 'comments'},
 { name: 'Calendar', human_name: 'Calendar', access_route: 'Calendar', icon: 'calendar'},
