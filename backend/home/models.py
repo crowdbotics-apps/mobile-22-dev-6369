@@ -23,6 +23,8 @@ class CustomText(models.Model):
 
 class HomePage(models.Model):
     body = models.TextField()
+    sdfasfg = models.BigIntegerField(null=True, blank=True,)
+    dfgsdfgs = models.BigIntegerField(null=True, blank=True,)
 
     @property
     def api(self):
