@@ -6,18 +6,18 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0002_load_initial_data'),
+        ("home", "0002_load_initial_data"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='homepage',
-            name='jhgjghgjg',
+            model_name="homepage",
+            name="jhgjghgjg",
             field=models.SmallIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='homepage',
-            name='jhjhgjg',
+            model_name="homepage",
+            name="jhjhgjg",
             field=models.BigIntegerField(blank=True, null=True),
         ),
     ]
